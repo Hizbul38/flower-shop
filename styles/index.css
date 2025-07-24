@@ -116,6 +116,7 @@
 .flower-cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 
 /* store-section style */
@@ -143,17 +144,21 @@
 .store-image{
     display: flex;
     flex-direction: column;
+    max-width: 50%;
+    position: relative;
 }
-.badge{
+.badge-image{
     position: absolute;
-    width: 286px;
-    height: 286px;
+    width: 10px;
+    height: 100px;
+    top: -500px;
 }
 .deals{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
     justify-content: center;
+    max-width: 100%;
 }
 .deals-title{
     font-size: 3.2rem;
@@ -168,48 +173,62 @@
     max-width: 100%;
     margin-top: 15px;
 }
-
-.deal-image{
+.join-section{
+    text-align: center;
     margin-top: 100px;
-    display: flex;
-    gap: 25px;
-}
-.collage{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-.deal-image img{
-    border-radius: 15px;
+    margin-bottom: 100px;
+    justify-content: center;
+    background-image: url('/Images/news-letter-bg.png');
+    width: 100%;
+    height: 533px;
+    align-items: center;
+
 }
 .join-title{
     font-size: 3rem;
-    font-weight: 600;
-    color: white;
-}
-.text-btn{
-    width: 700px;
-    height: 50px;
-}
-.btn-join{
-    width: 100px;
-    height: 50px;
-    background-color: rgb(233, 90, 8);
-    font-size: 0.9rem;
     font-weight: 700;
+}
+.text-box{
+    width: 500px;
+    height: 50px;
     border: none;
 }
-.box-space{
-    display: flex;
-    gap: 0;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.join-btn{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(233, 90, 8);
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
 }
-.join-box{
-    background-image: url('../Images/news-letter-bg.png');
-    width: 1440px;
-    height: 533px;
-    text-align: center;
-    align-items: center;
+.footer{
+   display: flex;
+   gap: 150px;
+   margin-bottom: 50px;
+}
+.footer-content{
+    max-width: 25%;
+}
+.footer-des{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-item ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-option ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.social-icons img{
+    margin: 0 20px 0 20px;
 }
