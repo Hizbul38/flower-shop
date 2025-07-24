@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Serif", serif;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    background-color: rgb(245, 248, 255);
+}
+
+/* navbar styles */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.home{
+    font-weight: 700;
+    color: rgb(37, 36, 50);
+}
+.shop{
+    font-weight: 400;
+    color: rgb(137, 135, 161);
+}
+.about{
+    font-weight: 400;
+    color: rgb(137, 135, 161);
+}
+
+/* banner style */
+
+.banner{
+    display: flex;
+    align-items: self-end;
+    margin-top: 110px;
+}
+.banner-content{
+    padding-bottom: 0px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.font-color{
+    color: rgb(233, 90, 8);
+}
+.banner-des{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+}
+.banner-image{
+    border: 1px dashed rgb(137, 135, 161);
+    display: block;
+}
+
+/* body content style */
+
+.our-plant{
+    margin-top: 120px;
+    justify-content: center;
+    text-align: center;
+}
+.plant-title{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.our-color{
+    color: rgb(233, 90, 8);
+}
+.plant-des{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+/* card style */
+
+.card{
+    margin-top: 50px;
+}
+
+.title-plant{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #111111;
+    margin-top: 10px;
+}
+.price{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #111111;
+}
+.cart-btn{
+    width: 270px;
+    height: 50px;
+    background-color: rgb(233, 90, 8);
+    color: white;
+    border: 0;
+    font-size: 0.90rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.flower-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* store-section style */
+
+.store-section{
+    margin-top: 250px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+.store-title{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.list-items{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.store-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.store-image{
+    display: flex;
+    flex-direction: column;
+}
+.badge{
+    position: absolute;
+    width: 286px;
+    height: 286px;
+}
+.deals{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.deals-title{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.latest-color{
+    color: rgb(233, 90, 8);
+}
+.deals-des{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+.deal-image{
+    margin-top: 100px;
+    display: flex;
+    gap: 25px;
+}
+.collage{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.deal-image img{
+    border-radius: 15px;
+}
+.join-title{
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+.text-btn{
+    width: 700px;
+    height: 50px;
+}
+.btn-join{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(233, 90, 8);
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: none;
+}
+.box-space{
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.join-box{
+    background-image: url('../Images/news-letter-bg.png');
+    width: 1440px;
+    height: 533px;
+    text-align: center;
+    align-items: center;
+}
