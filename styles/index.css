@@ -242,7 +242,7 @@
       justify-content: center;
       align-items: center;   
       text-align: center;
-      background-image: url('/Images/news-letter-bg.png');
+      background-image: url('../Images/news-letter-bg.png');
       background-size: cover;
       background-position: center;
       width: 100%;
@@ -325,6 +325,7 @@
         flex-direction: column;
         margin-top: 20px;
         margin-bottom: 20px;
+    
     }
    .banner-title, .plant-title{
     font-size: 2rem;
@@ -358,9 +359,8 @@
    .footer{
     display: flex;
     flex-direction: column;
-    text-align: center;
-   }
-   .footer-content{
+    gap: 25px;
+    align-items: center;
     text-align: center;
    }
    .social-icons img{
@@ -375,11 +375,25 @@
     margin-top: 10px;
     margin-bottom: 10px;
    }
-   .nav-items{
+   .home, .shop, .about{
     display: none;
    }
    .flower-cards{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
    }
-   }
+   .footer-des{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+.badge-image img{
+    display: none;
+}
+.badge-image{
+    display: none;
+}
+}
