@@ -5,9 +5,8 @@
     font-family: "Noto Serif", serif;
 }
 .container{
-    max-width: 1300px;
+    max-width: 1400px;
     margin: auto;
-    background-color: rgb(245, 248, 255);
 }
 
 /* navbar styles */
@@ -23,6 +22,10 @@
     display: flex;
     list-style: none;
     gap: 25px;
+}
+.nav-items ul li{
+    display: flex;
+    justify-content: space-between;
 }
 .home{
     font-weight: 700;
@@ -152,7 +155,7 @@
     height: 290px;
     width: 290px;
     top: -140px;
-    right: 640px;
+    right: 730px;
 }
 
 /* deal styles */
@@ -161,7 +164,6 @@
       text-align: center;
       margin-top: 100px;
       margin-bottom: 100px;
-      max-width: 100%;
     }
 
     .deals-title {
@@ -350,10 +352,6 @@
    .card{
     margin-top: 20px;
    }
-   .deals-grid{
-    display: flex;
-    flex-direction: column;
-   }
    .join-section{
     max-width: 100%;
    }
@@ -377,5 +375,11 @@
     margin-top: 10px;
     margin-bottom: 10px;
    }
+   .nav-items{
+    display: none;
    }
-}
+   .flower-cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   }
+   }
